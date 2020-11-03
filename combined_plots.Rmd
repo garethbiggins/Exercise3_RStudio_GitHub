@@ -1,0 +1,19 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Histogram
+
+```{r}
+source("histogram.R")
+```
+
+# Boxplot of iris data
+```{r}
+source("boxplot.R")
+iris_boxplot()
+```
